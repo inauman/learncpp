@@ -5,9 +5,9 @@
  *      Author: Mohammad Nauman
  */
 
-
 #include <iostream>
 
-int main(){
-	std::cout << "Hello C++ World!" << std::endl;
+int main() {
+	std::cout << "Hello C++ World!!!" << std::endl;
+	return 0;
 }
