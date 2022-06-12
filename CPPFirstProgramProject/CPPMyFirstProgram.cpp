@@ -45,6 +45,7 @@ int main() {
 	// solution 4: use an expression where the results are discarded after use
 	std:: cout << "\n\n************preferred solution:******************\n\n";
 	std::cout << "Solution 4: Expression: Double that number is: " << num * 2 << "\n\n";
+	std::cout << "Solution 4: Expression: Triple that number is: " << num * 3 << "\n\n";
 
 	//end of the program
 	return 0;
