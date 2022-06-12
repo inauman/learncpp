@@ -12,6 +12,23 @@ int doubleTheNumber(int n) {
 	return 2 * n;
 }
 
+void exerciseQuiz(){
+
+	// Ask the use to enter the first integer number
+	std::cout << "\n\nEnter an integer: ";
+	int num1{};
+	std::cin >> num1;
+
+	// Ask the use to enter the second integer number
+	std::cout << "\n\nEnter another integer: ";
+	int num2{};
+	std::cin >> num2;
+
+	std::cout << num1 << " + " << num2 << " is " << num1 + num2 << ".\n";
+	std::cout << num1 << " - " << num2 << " is " << num1 - num2 << ".\n";
+
+}
+
 int main() {
 
 	std::cout << "Enter the number: ";
@@ -47,6 +64,7 @@ int main() {
 	std::cout << "Solution 4: Expression: Double that number is: " << num * 2 << "\n\n";
 	std::cout << "Solution 4: Expression: Triple that number is: " << num * 3 << "\n\n";
 
+	exerciseQuiz();
 	//end of the program
 	return 0;
 }
