@@ -71,7 +71,7 @@ int main() {
 	std::cout << "\n*******************************\n\n";
 
 	// read the user input
-	std::cout << "Enter the number: ";
+	std::cout << "Enter the number: "; //ask user for a number
 
 	// define the number
 	int xx { }; //1. as a good practice, we used brace initialization 2. we didn't initialize it with zero as the value won't be used immediately, instead it will be replaced with the value provided by the user
@@ -79,6 +79,41 @@ int main() {
 	std::cin >> xx; // this capture the value from the keyboard and stores it into the variable xx
 
 	std::cout << "You entered the value --> " << xx << "\n";
+
+	std::cout << "\n*******************************\n\n";
+
+	/*
+	 * reading multiple inputs
+	 * */
+
+	std::cout << "Enter two values separated by space:";
+
+	//define two place holders
+	int n1{};
+	int n2{};
+
+	//read the values entered by the user
+	std::cin >> n1 >> n2;
+
+	// print the two values
+	std::cout << "You have enterted the following two values: " << n1 << " " << n2;
+
+	/*
+	 * std::cout represents console
+	 * << represents insertion operator
+	 * std::cout << var means data is moving from the var to the console
+	 * std::cin represents keyboard
+	 * >> represents extraction operator
+	 * std::cin >> var means data is moving from keyboard to the variable
+	 * */
+
+	std::cout << "\n*******************************\n\n";
+
+	// define but uninitialized i.e. no value is given
+	int abc;
+
+	std::cout << abc;
+
 
 	// end of the program
 	return 0;
