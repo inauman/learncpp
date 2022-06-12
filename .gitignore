@@ -1,5 +1,8 @@
 /.metadata/
 .DS_Store
+/Release/
+makefile
+*.mk
 # Merged the Eclipse Global and C++ .gitignore files
 #https://github.com/github/gitignore/blob/main/Global/Eclipse.gitignore
 #https://github.com/github/gitignore/blob/main/C%2B%2B.gitignore
