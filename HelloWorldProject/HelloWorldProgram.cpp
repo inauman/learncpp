@@ -10,4 +10,7 @@
 int main() {
 	std::cout << "Hello C++ World!!!" << std::endl;
 	return 0;
+
+	// Single line comments
+	/* Multiline comments */
 }
