@@ -12,7 +12,21 @@ void printValues(int x, int y){
 	std::cout << y << "\n";
 }
 
+int add(int x, int y){
+	return x + y;
+}
+
+int multiply(int a, int b){
+	return a * b;
+}
 
 int main(){
 	printValues(5,7);
+
+	std::cout << add(5, 7) << "\n";
+
+	int a{5};
+	std::cout << add(a, a) << "\n";
+
+	std::cout << add(1, multiply(3, 7)) << "\n";
 }
