@@ -9,6 +9,7 @@
 
 //forward declaration using "function prototypes".
 int subtract(int x, int y);
+int doMath(int first, int second, int third, int fourth);
 
 void printValues(int x, int y){
 	std::cout << x << "\n";
@@ -34,8 +35,18 @@ int main(){
 	std::cout << add(1, multiply(3, 7)) << "\n";
 
 	std::cout << subtract(7, 5) << "\n";
+
+	std::cout << doMath(1, 3, 4, 2) << "\n";
 }
 
 int subtract(int x, int y){
 	return x - y;
 }
+
+int doMath(int first, int second, int third, int fourth){
+	return first + second * third / fourth;
+}
+
+
+
+
