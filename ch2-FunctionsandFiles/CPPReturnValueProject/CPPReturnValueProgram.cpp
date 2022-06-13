@@ -6,7 +6,10 @@
  */
 
 #include <iostream>
+#include <cstdlib>
 
+// this function asks for the user to input a number
+// it returns the user typed integer value
 int getValueFromUser() {
 
 	// print a user friendly message
@@ -22,15 +25,36 @@ int getValueFromUser() {
 	return input;
 }
 
+void voidFunction(){
+	std::cout << "\n\nJust say hello." << "\n";
+
+}
+
+void printDouble(int x){
+	std::cout << x << " doubled is " << 2 * x << ".\n\n";
+}
+
+void printValue(int x){
+	std::cout << x << "\n";
+}
+
+int add(int x, int y){
+	return x + y;
+}
+
 int main(){
 
 	// initialize num using the return value from the function using List (or Brace) direct initialization
-	int num{ getValueFromUser() };
+	int x{ getValueFromUser() };
+	int y{ getValueFromUser() };
 
 	// Double the number using expression
-	std::cout << num << " doubled is " << 2 * num;
+	printDouble(x);
+	std::cout << x << " + " << y << " = " << x + y << ".\n";
+
+
 
 	//end the program with status code/exit code 0
-	return 0;
+	return EXIT_SUCCESS; //note: EXIT_SUCCESS/EXIT_FAILURE are defined in cstdlib
 }
 
