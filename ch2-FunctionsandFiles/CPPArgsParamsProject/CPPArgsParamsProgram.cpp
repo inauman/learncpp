@@ -7,6 +7,9 @@
 
 #include <iostream>
 
+//forward declaration
+int subtract(int x, int y);
+
 void printValues(int x, int y){
 	std::cout << x << "\n";
 	std::cout << y << "\n";
@@ -29,4 +32,10 @@ int main(){
 	std::cout << add(a, a) << "\n";
 
 	std::cout << add(1, multiply(3, 7)) << "\n";
+
+	std::cout << subtract(7, 5) << "\n";
+}
+
+int subtract(int x, int y){
+	return x - y;
 }
