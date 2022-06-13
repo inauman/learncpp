@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-//forward declaration
+//forward declaration using "function prototypes".
 int subtract(int x, int y);
 
 void printValues(int x, int y){
