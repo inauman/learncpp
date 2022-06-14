@@ -21,8 +21,11 @@ def add_commit_push(*args):
     branch = "master"
         
     stream = os.popen(f"git add -A; \
+        git commit -m '{message}';")
+    
+    '''stream = os.popen(f"git add -A; \
         git commit -m '{message}'; \
-        git push origin {branch};")
+        git push origin {branch};")'''
         #git push origin {branch}; git push github {branch};")
     output = stream.read()
     print(output)
