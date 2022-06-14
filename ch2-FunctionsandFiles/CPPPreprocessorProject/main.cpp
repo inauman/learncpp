@@ -7,8 +7,15 @@
 
 #include <iostream>
 
+// define directive for conditional compilation. This directive defined here would be available
+// ONLY in this main.cpp and not other .cpp files.
+
+#define PRINT
+
+// forward declaration using function prototype
 void macro();
 void cond_preprocessor();
+void print();
 
 int main(){
 	macro();
@@ -25,5 +32,7 @@ int main(){
 		std::cout << this is an error and it won't be compiled
 	#endif //END
 
+	print();
+	return 0;
 }
 
