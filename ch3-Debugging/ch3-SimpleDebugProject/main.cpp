@@ -1,7 +1,11 @@
 #include <iostream>
 
+//#define ENABLE_DEBUG
+
 int add(int x, int y){
-    std::cout << "add() called (x=" << x << ", y=" << y << ")\n";
+#if defined(ENABLE_DEBUG)
+    std::cerr << "add() called (x=" << x << ", y=" << y << ")\n";
+#endif
     return x + y;
 }
 
@@ -17,15 +21,21 @@ int getUserInput(){
 }
 int main() {
     int x{getUserInput()};
-    std::cerr << "main::x = " << x << "\n";
+
+    #if defined(ENABLE_DEBUG)
+        std::cerr << "main::x = " << x << "\n";
+    #endif
 
     int y{getUserInput()};
+#if defined(ENABLE_DEBUG)
     std::cerr << "main::y = " << y << "\n";
+#endif
     std::cout << x << " + " << y << "\n";
 
     int z{add(x, y)};
+#if defined(ENABLE_DEBUG)
     std::cerr << "main::z = " << z << "\n";
-
+#endif
     printResult(z);
 
     std::cout << "Hello, World!" << std::endl;
