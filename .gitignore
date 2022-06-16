@@ -3,6 +3,10 @@
 /Release/
 makefile
 *.mk
+*.log
+*.txt
+*.bin
+
 # Merged the Eclipse Global and C++ .gitignore files
 #https://github.com/github/gitignore/blob/main/Global/Eclipse.gitignore
 #https://github.com/github/gitignore/blob/main/C%2B%2B.gitignore
@@ -68,7 +72,7 @@ local.properties
 # Typically, this file would be tracked if it contains build/dependency configurations:
 #.project
 
-/Debug/
+
 # Prerequisites
 *.d
 
