@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ch3_SimpleDebugProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ch3_SimpleDebugProject-Debug-03edfc2c4403c44e73ce.json",
+					"jsonFile" : "target-ch3_SimpleDebugProject-Release-db79d1dc7f6987bb4e3a.json",
 					"name" : "ch3_SimpleDebugProject",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/nauman/Projects/learncpp/ch3-Debugging/ch3-SimpleDebugProject/cmake-build-debug",
+		"build" : "/Users/nauman/Projects/learncpp/ch3-Debugging/ch3-SimpleDebugProject/cmake-build-release",
 		"source" : "/Users/nauman/Projects/learncpp/ch3-Debugging/ch3-SimpleDebugProject"
 	},
 	"version" : 

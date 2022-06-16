@@ -1,41 +1,42 @@
 #include <iostream>
+#include <plog/Log.h>
+#include <plog/Initializers/RollingFileInitializer.h>
 
 //#define ENABLE_DEBUG
 
-int add(int x, int y){
-#if defined(ENABLE_DEBUG)
-    std::cerr << "add() called (x=" << x << ", y=" << y << ")\n";
-#endif
+int add(int x, int y) {
+    PLOGD << "add() called (x=" << x << ", y=" << y << ")";
     return x + y;
 }
 
-void printResult(int z){
+void printResult(int z) {
     std::cout << "The answer is: " << z << " .\n";
 }
 
-int getUserInput(){
+int getUserInput() {
     std::cout << "Enter a number: ";
     int x{};
     std::cin >> x;
     return x;
 }
+
 int main() {
+    plog::init(plog::debug, "Logfile.txt");
+
     int x{getUserInput()};
 
-    #if defined(ENABLE_DEBUG)
-        std::cerr << "main::x = " << x << "\n";
-    #endif
+    PLOGD << "main::x = " << x << "\n";
 
     int y{getUserInput()};
-#if defined(ENABLE_DEBUG)
-    std::cerr << "main::y = " << y << "\n";
-#endif
+
+    PLOGD << "main::y = " << y << "\n";
+
     std::cout << x << " + " << y << "\n";
 
     int z{add(x, y)};
-#if defined(ENABLE_DEBUG)
-    std::cerr << "main::z = " << z << "\n";
-#endif
+
+    PLOGD << "main::z = " << z << "\n";
+
     printResult(z);
 
     std::cout << "Hello, World!" << std::endl;
