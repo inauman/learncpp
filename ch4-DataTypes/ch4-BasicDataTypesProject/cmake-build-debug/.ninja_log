@@ -1,0 +1,17 @@
+# ninja log v5
+0	831	1655486303703634281	CMakeFiles/ch4_BasicDataTypesProject.dir/main.cpp.o	8fac8e263f93c483
+832	898	1655486303773423088	ch4_BasicDataTypesProject	be4d373fc13fe2fe
+2	822	1655486349963065831	CMakeFiles/ch4_BasicDataTypesProject.dir/main.cpp.o	8fac8e263f93c483
+823	885	1655486350029047973	ch4_BasicDataTypesProject	be4d373fc13fe2fe
+3	854	1655486526951945469	CMakeFiles/ch4_BasicDataTypesProject.dir/main.cpp.o	8fac8e263f93c483
+854	958	1655486527059299083	ch4_BasicDataTypesProject	be4d373fc13fe2fe
+3	869	1655486558516575283	CMakeFiles/ch4_BasicDataTypesProject.dir/main.cpp.o	8fac8e263f93c483
+870	933	1655486558585798594	ch4_BasicDataTypesProject	be4d373fc13fe2fe
+3	874	1655486589660554715	CMakeFiles/ch4_BasicDataTypesProject.dir/main.cpp.o	8fac8e263f93c483
+874	940	1655486589730447435	ch4_BasicDataTypesProject	be4d373fc13fe2fe
+2	842	1655486596694202865	CMakeFiles/ch4_BasicDataTypesProject.dir/main.cpp.o	8fac8e263f93c483
+843	907	1655486596762753346	ch4_BasicDataTypesProject	be4d373fc13fe2fe
+2	836	1655486769516232804	CMakeFiles/ch4_BasicDataTypesProject.dir/main.cpp.o	8fac8e263f93c483
+836	900	1655486769588156393	ch4_BasicDataTypesProject	be4d373fc13fe2fe
+3	875	1655486783217656043	CMakeFiles/ch4_BasicDataTypesProject.dir/main.cpp.o	8fac8e263f93c483
+875	939	1655486783284440412	ch4_BasicDataTypesProject	be4d373fc13fe2fe
