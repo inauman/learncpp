@@ -1,17 +1,23 @@
 #include <iostream>
 
-void a() {
-    std::cout << "a() called\n";
+int readNumber(int x)
+{
+    std::cout << "Please enter a number: ";
+    std::cin >> x;
+    return x;
 }
 
-void b() {
-    std::cout << "b() called\n";
-    a();
+void writeAnswer(int x)
+{
+    std::cout << "The sum is: " << x << '\n';
 }
 
-int main() {
-    a();
-    b();
+int main()
+{
+    int x {};
+    x = readNumber(x);
+    x = x + readNumber(x);
+    writeAnswer(x);
 
     return 0;
 }
