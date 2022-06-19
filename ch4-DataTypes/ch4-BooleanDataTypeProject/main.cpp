@@ -6,11 +6,43 @@ void userInput();
 
 void boolComp();
 
+int userInputNumber();
+
+bool isPrime(int x);
+
 int main() {
     //basicBoolean();
     //userInput();
-    boolComp();
+    //boolComp();
+    int x{userInputNumber()};
+
+    std::cout << std::boolalpha;
+    std::cout << x << " is a prime " << isPrime(x) << "\n";
     return 0;
+}
+
+bool isPrime(int x) {
+    if (x > 3 and (x % 2 == 0 || x % 3 == 0)) {
+        return 0;
+    } else {
+        return 1;
+    }
+}
+
+int userInputNumber() {
+    std::cout << "Please enter a number (0-9): ";
+    int num1{};
+    std::cin >> num1;
+
+    if (num1 == 999) {
+        std::cout << "Thank you for playing!" << "\n";
+    } else if (num1 < 0 or num1 > 9) {
+        std::cout << "Sorry! Number should be between 1 and 9 only ";
+        //num1 = userInputNumber(); // Recursion needs to be fixed in future...
+    } else {
+        return num1;
+    }
+
 }
 
 void userInput() {
