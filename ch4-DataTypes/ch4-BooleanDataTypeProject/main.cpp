@@ -10,6 +10,16 @@ int userInputNumber();
 
 bool isPrime(int x);
 
+bool isAllowedToTakeFunRide() {
+    std::cout << "How tall are you? (cm)\n";
+
+    double height{};
+    std::cin >> height;
+
+    return (height > 140.0);
+
+}
+
 int main() {
     //basicBoolean();
     //userInput();
@@ -18,14 +28,20 @@ int main() {
 
     std::cout << std::boolalpha;
     std::cout << x << " is a prime " << isPrime(x) << "\n";
+
+    if (isAllowedToTakeFunRide())
+        std::cout << "Have fun!\n";
+    else
+        std::cout << "Sorry, you're too short.\n";
     return 0;
 }
 
+
 bool isPrime(int x) {
     if (x > 3 and (x % 2 == 0 || x % 3 == 0)) {
-        return 0;
+        return false;
     } else {
-        return 1;
+        return true;
     }
 }
 

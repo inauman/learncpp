@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Ch4_CharDataTypeProject",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ch4_CharDataTypeProject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ch4_CharDataTypeProject-Debug-f8685df3c6ae3ed2cb8a.json",
+					"name" : "Ch4_CharDataTypeProject",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/nauman/Projects/learncpp/ch4-DataTypes/Ch4-CharDataTypeProject/cmake-build-debug",
+		"source" : "/Users/nauman/Projects/learncpp/ch4-DataTypes/Ch4-CharDataTypeProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
