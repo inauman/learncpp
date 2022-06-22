@@ -1,17 +1,21 @@
 #include <iostream>
 void basicCharDataType();
 void inputChar();
-void print(double x);
+void print(int x);
 
 int main() {
     //basicCharDataType();
     //inputChar();
-    print(5.0);
+    print(5);
+
+    //explicit conversion (in this case fraction will be dropped)
+    print(static_cast<int>(7.5));
+
     return 0;
 }
 
-void print(double x){
-    std::cout << x;
+void print(int x){
+    std::cout << x << "\n";
     double y{3.0}; // c++ compiler drops zero in printing (only print non-zero fractions in float numbers)
     std::cout << "The value of double y is: " << y << "\n";
 
