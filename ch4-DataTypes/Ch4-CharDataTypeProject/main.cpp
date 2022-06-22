@@ -11,6 +11,10 @@ int main() {
     //explicit conversion (in this case fraction will be dropped)
     print(static_cast<int>(7.5));
 
+    // explict conversion from chat to int
+    char ch{97};
+    std::cout << "The char is --> " << ch << "\n";
+    std::cout << "The integer value of char is --> " << static_cast<int>(ch) << "\n";
     return 0;
 }
 
