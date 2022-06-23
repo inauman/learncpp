@@ -2,10 +2,25 @@
 void basicCharDataType();
 void inputChar();
 void print(int x);
+void conversions();
+void doQuiz1()
 
 int main() {
     //basicCharDataType();
     //inputChar();
+    //conversions();
+    doQuiz1();
+    return 0;
+}
+
+void doQuiz1(){
+    std::cout << "Enter a single character: ";
+    char ch{};
+    std::cin >> ch;
+    std::cout << "\nYou entered '" << ch << "', which has ASCII value of " << static_cast<int>(ch) << ".\n";
+}
+
+void conversions(){
     print(5);
 
     //explicit conversion (in this case fraction will be dropped)
@@ -25,9 +40,7 @@ int main() {
     int8_t myint{65};
     std::cout << myint << "\n"; //this will print 'A' as int8_t and uint8_t are treated as char
     std::cout << static_cast<int>(myint); //static cast to convert from char to int
-    return 0;
 }
-
 void print(int x){
     std::cout << x << "\n";
     double y{3.0}; // c++ compiler drops zero in printing (only print non-zero fractions in float numbers)
