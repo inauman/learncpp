@@ -3,14 +3,23 @@ void basicCharDataType();
 void inputChar();
 void print(int x);
 void conversions();
-void doQuiz1()
+void doQuiz1();
+void doQuiz2();
+void doQuiz3();
 
 int main() {
     //basicCharDataType();
     //inputChar();
     //conversions();
-    doQuiz1();
+    //doQuiz1();
+    doQuiz3();
     return 0;
+}
+
+int charAsInt(char c)
+{
+    std::cout << "\nBefore return.... --> " << c << "\n";
+    return c;
 }
 
 void doQuiz1(){
@@ -18,6 +27,24 @@ void doQuiz1(){
     char ch{};
     std::cin >> ch;
     std::cout << "\nYou entered '" << ch << "', which has ASCII value of " << static_cast<int>(ch) << ".\n";
+}
+
+void doQuiz2(){
+    std::cout << "Enter a single character: ";
+    char ch{};
+    std::cin >> ch;
+
+    int ascii{ch};
+    std::cout << "\nYou entered '" << ch << "', which has ASCII value of " << ascii << ".\n";
+}
+
+void doQuiz3(){
+    std::cout << "Enter a single character: ";
+    char ch{};
+    std::cin >> ch;
+
+
+    std::cout << "\nYou entered '" << ch << "', which has ASCII value of " <<  charAsInt(ch) << ".\n";
 }
 
 void conversions(){
