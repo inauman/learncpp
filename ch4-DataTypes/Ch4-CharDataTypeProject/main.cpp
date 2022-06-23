@@ -15,6 +15,15 @@ int main() {
     char ch{97};
     std::cout << "The char is --> " << ch << "\n";
     std::cout << "The integer value of char is --> " << static_cast<int>(ch) << "\n";
+
+    //unsigned int to signed int conversion
+    unsigned int u {5u};
+    int s { static_cast<int>(u)};
+    std::cout << "unsigned int to int --> " << s << "\n";
+
+    // fixed width (size t) integers to integer
+    int8_t myint{65};
+    std::cout << myint << "\n";
     return 0;
 }
 
