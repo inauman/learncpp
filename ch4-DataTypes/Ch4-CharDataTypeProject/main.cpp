@@ -23,7 +23,8 @@ int main() {
 
     // fixed width (size t) integers to integer
     int8_t myint{65};
-    std::cout << myint << "\n";
+    std::cout << myint << "\n"; //this will print 'A' as int8_t and uint8_t are treated as char
+    std::cout << static_cast<int>(myint); //static cast to convert from char to int
     return 0;
 }
 
