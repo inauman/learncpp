@@ -2,6 +2,7 @@
 void printInt(const int x);
 void initConstant();
 const int constReturnValue();
+void constExpression();
 
 int main() {
     //initConstant();
@@ -15,9 +16,21 @@ int main() {
 
     a = 7;
     std::cout << a << "\n";
+
+    constExpression();
     return 0;
 }
 
+void constExpression(){
+
+    std::cout << "Enter your age: ";
+    int age;
+    std::cin >> age;
+
+    const int sum{5 + 4};
+    constexpr int age_constexpt = sum;
+    std::cout << age_constexpt << "\n";
+}
 void printInt(const int x){
     std::cout << x << "\n";
 
