@@ -1,0 +1,11 @@
+# ninja log v5
+0	862	1656651118352131549	CMakeFiles/ch4_StringProject.dir/main.cpp.o	48ea507db304ed37
+864	918	1656651118413298477	ch4_StringProject	d0246f66e6c2e86c
+2	852	1656651245246741510	CMakeFiles/ch4_StringProject.dir/main.cpp.o	48ea507db304ed37
+852	906	1656651245302762987	ch4_StringProject	d0246f66e6c2e86c
+2	844	1656651369963350975	CMakeFiles/ch4_StringProject.dir/main.cpp.o	48ea507db304ed37
+844	896	1656651370018517347	ch4_StringProject	d0246f66e6c2e86c
+2	888	1656652236987631012	CMakeFiles/ch4_StringProject.dir/main.cpp.o	48ea507db304ed37
+888	944	1656652237049589023	ch4_StringProject	d0246f66e6c2e86c
+2	805	1656652261655053107	CMakeFiles/ch4_StringProject.dir/main.cpp.o	48ea507db304ed37
+805	859	1656652261711686627	ch4_StringProject	d0246f66e6c2e86c
