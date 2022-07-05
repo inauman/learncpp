@@ -27,7 +27,7 @@ void readUserInput(){
     std::cout << "Your name is \"" << name << "\" and your age is " << age << ".\n";
 
     std::cout << "You have " << std::ssize(name) << " characters in your name." << "\n";
-    
+
     std::cout << std::ssize(name) + age << "\n";
 
 }
