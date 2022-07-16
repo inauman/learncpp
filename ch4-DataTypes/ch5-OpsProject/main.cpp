@@ -7,16 +7,37 @@ int64_t powint(int base, int exp);
 void quiz2();
 bool isEven(int num);
 void prefixpostfix();
-
+void koma();
+void ternary();
 int main() {
     //doIntegerDiv();
     //doExponent();
     //std::cout << powint(7, 12);
     //quiz2();
-    prefixpostfix();
+    //prefixpostfix();
+    //koma();
+    ternary();
     return 0;
 }
 
+void ternary(){
+
+    //print 2 as first expression is non-zero
+    std::cout << (5 ? 2 : 7) << "\n";
+
+    //print 7 as first expression is zero
+    std::cout << (0 ? 2 : 7) << "\n";
+
+    constexpr bool inBigClassroom {true};
+    constexpr int classSize{inBigClassroom ? 30 : 20};
+    std::cout << classSize << "\n";
+}
+void koma(){
+    int x{1};
+    int y{2};
+    int z{7};
+    std::cout << (++x, ++y, ++z) << "\n";
+}
 void prefixpostfix(){
     int x{5};
     int y{5};
@@ -30,7 +51,7 @@ void prefixpostfix(){
     std::cout << x++ << ' ' << y-- << "\n";
 
     std::cout << x << ' ' << y << "\n";
-    
+
 }
 void doIntegerDiv(){
     int x{ 7 };
