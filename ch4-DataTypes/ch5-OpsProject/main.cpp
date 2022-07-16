@@ -12,10 +12,26 @@ int main() {
     //doIntegerDiv();
     //doExponent();
     //std::cout << powint(7, 12);
-    quiz2();
+    //quiz2();
+    prefixpostfix();
     return 0;
 }
 
+void prefixpostfix(){
+    int x{5};
+    int y{5};
+
+    std::cout << x << ' ' << y << "\n";
+
+    std::cout << ++x << ' ' << --y << "\n";
+
+    std::cout << x << ' ' << y << "\n";
+
+    std::cout << x++ << ' ' << y-- << "\n";
+
+    std::cout << x << ' ' << y << "\n";
+    
+}
 void doIntegerDiv(){
     int x{ 7 };
     int y{ 4 };
