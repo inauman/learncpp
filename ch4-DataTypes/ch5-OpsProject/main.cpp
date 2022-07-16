@@ -9,6 +9,10 @@ bool isEven(int num);
 void prefixpostfix();
 void koma();
 void ternary();
+void fquiz1();
+void fquiz2();
+void fquiz3();
+
 int main() {
     //doIntegerDiv();
     //doExponent();
@@ -16,10 +20,30 @@ int main() {
     //quiz2();
     //prefixpostfix();
     //koma();
-    ternary();
+    //ternary();
+    //fquiz1();
+    //fquiz2();
+    fquiz3();
     return 0;
 }
 
+void fquiz1(){
+    std::cout << ((true || false) ? 4 : 5) << "\n";
+
+}
+void fquiz2(){
+    std::cout << (7/4) << "\n";
+    std::cout << (14 % 5) << "\n";
+}
+
+void fquiz3(){
+    double x {0.1 + 0.1 + 0.1};
+    std::cout << (x == 0.3) << "\n";
+
+    //undefined behavior
+    int y{3/0};
+    std::cout << y << "\n";
+}
 void ternary(){
 
     //print 2 as first expression is non-zero
