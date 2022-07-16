@@ -6,6 +6,7 @@ void doExponent();
 int64_t powint(int base, int exp);
 void quiz2();
 bool isEven(int num);
+void prefixpostfix();
 
 int main() {
     //doIntegerDiv();
