@@ -22,6 +22,8 @@ std::bitset<4> rotl(std::bitset<4> bits)
 {
     const bool leftbit{ bits.test(3) };
      bits <<= 1;
+     std::cout << "shiftleft without rotl: " << bits << "\n";
+
     if (leftbit){
         bits.set(0);
     }
