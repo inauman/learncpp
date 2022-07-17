@@ -3,7 +3,7 @@
 void basic();
 void bitwiseOps();
 std::bitset<4> rotl(std::bitset<4> bits);
-
+std::bitset<4> rotl2(std::bitset<4> bits);
 int main() {
     //basic();
     //bitwiseOps();
@@ -14,6 +14,12 @@ int main() {
     std::bitset<4> bits2{ 0b1001 };
     std::cout << rotl(bits2) << '\n';
 
+
+    std::cout << rotl2(bits1) << '\n';
+
+
+    std::cout << rotl2(bits2) << '\n';
+
     return 0;
 }
 
@@ -22,12 +28,21 @@ std::bitset<4> rotl(std::bitset<4> bits)
 {
     const bool leftbit{ bits.test(3) };
      bits <<= 1;
-     std::cout << "shiftleft without rotl: " << bits << "\n";
+
 
     if (leftbit){
         bits.set(0);
     }
     return bits;
+}
+
+// "rotl" stands for "rotate left"
+std::bitset<4> rotl2(std::bitset<4> bits)
+{
+    // 0001 ==> 0010, 1001 ==> 0011
+    // << 1 ==> 0010        0010
+    // >> 3 ==> 0000        0001
+    return (bits << 1 | bits >> 3);
 }
 
 void bitwiseOps(){
