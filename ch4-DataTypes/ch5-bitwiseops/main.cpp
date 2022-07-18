@@ -28,11 +28,32 @@ void bitmask(){
 
     //flag
     std::uint8_t flags{ 0b0000'0101 };
-    
+
     //std::cout << (flags & mask2);
     std::cout << "bit 0 is " << ((flags & mask0) ? "on\n" : "off\n");
     std::cout << "bit 1 is " << ((flags & mask1) ? "on\n" : "off\n");
 
+    //turn on bit 1 using mask1 and bitwise OR assignment ( |= )
+    flags |= mask1;
+    std::cout << "bit 1 is " << ((flags & mask1) ? "on\n" : "off\n");
+
+    //turn on multiple bits at the same time
+    flags |= (mask4 | mask5);
+
+    std::cout << std::bitset<8>(flags) << "\n";
+
+    //turn off &= ~
+    std::cout << "bit 2 is " << ((flags & mask2) ? "on: " : "off: ") << std::bitset<8>(flags) << "\n";
+    //std::cout << std::bitset<8>(~mask2);
+    flags &= ~mask2;
+    std::cout << "bit 2 is " << ((flags & mask2) ? "on: " : "off: ") << std::bitset<8>(flags) << "\n";
+
+    //flip a bit using XOR ^
+    std::cout << "bit 3 is " << ((flags & mask3) ? "on: " : "off: ") << std::bitset<8>(flags) << "\n";
+    flags ^= mask3;
+    std::cout << "bit 3 is " << ((flags & mask3) ? "on:  " : "off: ") << std::bitset<8>(flags) << "\n";
+    flags ^= (mask3 | mask4);
+    std::cout << "bit 3 is " << ((flags & mask3) ? "on: " : "off: ") << std::bitset<8>(flags) << "\n";
 }
 void rotateLeft(){
     std::bitset<4> bits1{ 0b0001 };
