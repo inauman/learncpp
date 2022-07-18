@@ -6,16 +6,40 @@ std::bitset<4> rotl(std::bitset<4> bits);
 std::bitset<4> rotl2(std::bitset<4> bits);
 void rotateLeft();
 void bitmask();
-
+void game();
 int main() {
     //basic();
     //bitwiseOps();
     //rotateLeft();
-    bitmask();
-
+    //bitmask();
+    //game();
     return 0;
 }
 
+void game(){
+    constexpr std::uint8_t isHungary{  1 << 0 }; //represents bit 0
+    constexpr std::uint8_t isSad{      1 << 1 }; //represents bit 1
+    constexpr std::uint8_t isMad{      1 << 2 }; //represents bit 2
+    constexpr std::uint8_t isHappy{    1 << 3 }; //represents bit 3
+    constexpr std::uint8_t isLaughing{ 1 << 4 }; //represents bit 4
+    constexpr std::uint8_t isAsleep{   1 << 5 }; //represents bit 5
+    constexpr std::uint8_t isDead{     1 << 6 }; //represents bit 6
+    constexpr std::uint8_t isCrying{   1 << 7 }; //represents bit 7
+
+    std::uint8_t me{}; // all flags are off in the beginning
+    std::cout << std::bitset<8>(me) << "\n";
+
+    //I am happy and laughing
+    me |= (isHappy | isLaughing);
+    std::cout << std::bitset<8>(me) << "\n";
+
+    //I am no longer laughing
+    me &= ~isLaughing;
+    std::cout << std::bitset<8>(me) << "\n";
+
+    std::cout << "I am happy? " << static_cast<bool>(me & isHappy) << '\n';
+    std::cout << "I am laughing? " << static_cast<bool>(me & isLaughing) << '\n';
+}
 void bitmask(){
     constexpr std::uint8_t mask0{ 0b0000'0001 }; //represents bit 0
     constexpr std::uint8_t mask1{ 0b0000'0010 }; //represents bit 1
