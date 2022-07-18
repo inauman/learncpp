@@ -7,15 +7,47 @@ std::bitset<4> rotl2(std::bitset<4> bits);
 void rotateLeft();
 void bitmask();
 void game();
+void multibitmasks();
+
 int main() {
     //basic();
     //bitwiseOps();
     //rotateLeft();
     //bitmask();
     //game();
+    multibitmasks();
     return 0;
 }
 
+void multibitmasks(){
+    constexpr std::uint32_t redBits{0xFF000000};
+    constexpr std::uint32_t greenBits{0x00FF0000};
+    constexpr std::uint32_t blueBits{0x0000FF00};
+    constexpr std::uint32_t alphaBits{0x00000000FF};
+
+    std::cout << "Enter a 32-bit RGBA color value in hexadecimal (e.g. FF7F3300): ";
+    std::uint32_t pixel{};
+
+    /*
+        32-bit RGBA value
+        bits 31-24	    bits 23-16	    bits 15-8	    bits 7-0
+        RRRRRRRR	    GGGGGGGG	    BBBBBBBB	    AAAAAAAA
+        red	            green	        blue	        alpha
+     * */
+    std::cin >> std::hex >> pixel; // std::hex allows us to read in a hex value
+    std::uint8_t red{ static_cast<std::uint8_t>((pixel & redBits) >> 24)};
+    std::uint8_t green{ static_cast<std::uint8_t>((pixel & greenBits) >> 16)};
+    std::uint8_t blue{ static_cast<std::uint8_t>((pixel & blueBits) >> 8)};
+    std::uint8_t alpha{ static_cast<std::uint8_t>((pixel & alphaBits))};
+
+    std::cout << "Your color contains: \n";
+    std::cout << std::hex; // print the following values in hex
+    std::cout << static_cast<int>(red) << " red\n";
+    std::cout << static_cast<int>(green) << " green\n";
+    std::cout << static_cast<int>(blue) << " blue\n";
+    std::cout << static_cast<int>(alpha) << " alpha\n";
+
+}
 void game(){
     constexpr std::uint8_t isHungary{  1 << 0 }; //represents bit 0
     constexpr std::uint8_t isSad{      1 << 1 }; //represents bit 1
