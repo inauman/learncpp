@@ -8,6 +8,7 @@ void rotateLeft();
 void bitmask();
 void game();
 void multibitmasks();
+void quiz1();
 
 int main() {
     //basic();
@@ -15,10 +16,28 @@ int main() {
     //rotateLeft();
     //bitmask();
     //game();
-    multibitmasks();
+    //multibitmasks();
+    quiz1();
     return 0;
 }
+void quiz1(){
+    constexpr std::uint8_t option_viewed{ 0x01 };
+    constexpr std::uint8_t option_edited{ 0x02 };
+    constexpr std::uint8_t option_favorited{ 0x04 };
+    constexpr std::uint8_t option_shared{ 0x08 };
+    constexpr std::uint8_t option_deleted{ 0x10 };
 
+    std::uint8_t myArticleFlags{ option_favorited };
+
+    myArticleFlags |= option_viewed;
+
+    std::cout << std::bitset<8>{ myArticleFlags } << '\n';
+
+    std::cout << "article deleted: " << ((myArticleFlags & option_deleted) ? "yes\n" : "no\n");
+
+    myArticleFlags &= ~option_favorited;
+    std::cout << std::bitset<8>{ myArticleFlags } << '\n';
+}
 void multibitmasks(){
     constexpr std::uint32_t redBits{0xFF000000};
     constexpr std::uint32_t greenBits{0x00FF0000};
