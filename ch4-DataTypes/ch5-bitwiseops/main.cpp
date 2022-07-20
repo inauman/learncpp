@@ -9,17 +9,56 @@ void bitmask();
 void game();
 void multibitmasks();
 void quiz1();
-
+void quiz6();
 int main() {
     //basic();
     //bitwiseOps();
     //rotateLeft();
     //bitmask();
     //game();
-    multibitmasks();
+    //multibitmasks();
     //quiz1();
+    quiz6();
     return 0;
 }
+
+int printAndDecrementBit(int x, int pow){
+    if(x >= pow){
+        std::cout << "1";
+        return (x - pow);
+    }
+    std::cout << "0";
+    return x;
+}
+void quiz6(){
+    std::cout << "Please enter a number between 0 and 255: ";
+    int x{};
+    std::cin >> x;
+
+    x = printAndDecrementBit(x, 128);
+    x = printAndDecrementBit(x, 64);
+    x = printAndDecrementBit(x, 32);
+    x = printAndDecrementBit(x, 16);
+    std::cout << ' ';
+    x = printAndDecrementBit(x, 8);
+    x = printAndDecrementBit(x, 4);
+    x = printAndDecrementBit(x, 2);
+    x = printAndDecrementBit(x, 1);
+    std::cout << '\n';
+
+    /*
+     * * method2 0101 1101
+ * 93 >= 64     =>  Yes     64  ==  1   Diff    93 - 64 = 29
+ * 29 >= 32     =>  No      32  ==  0
+ * 29 >= 16     =>  Yes     16  ==  1   Diff    29 - 16 = 13
+ * 13 >= 8      =>  Yes     8   ==  1   Diff    13 - 8  = 5
+ * 5 >= 4       =>  Yes     4   ==  1   Diff    5 - 4   = 1
+ * 1 >= 2       =>  No      2   ==  0
+ * 1 >= 1       =>  Yes     1   ==  1
+     * */
+}
+
+
 void quiz1(){
     constexpr std::uint8_t option_viewed{ 0x01 };
     constexpr std::uint8_t option_edited{ 0x02 };
@@ -221,3 +260,50 @@ void basic(){
     std::cout << "bit @ 3: " << bits.test(3) << std::endl;
     std::cout << "bit @ 4: " << bits.test(4) << std::endl;
 }
+
+/*
+ * Quiz1
+ * 01001101 = 0 * 2^7 + 1 * 2^6 + 0 * 2^5 + 0 * 2^4 + 1 * 2^3 + 1 * 2^2 + 0 * 2^1 + 1 * 2^0
+ *          = 0 + 64 + 0 + 0 + 8 + 4 + 0 + 1
+ *          = 77
+ *
+ * Quiz2
+ * 93 to binary
+ * method1 = 01011101 (0 + 64 + 0 + 16 + 8 + 4 + 0 + 1)
+ * 93/2     = 46    r1
+ * 46/2     = 23    r0
+ * 23/2     = 11    r1
+ * 11/2     = 5     r1
+ * 5/2      = 2     r1
+ * 2/2      = 1     r0
+ * 1/2      = 0     r1
+ *
+ * method2 01011101
+ * 93 >= 64     =>  Yes     64  ==  1   Diff    93 - 64 = 29
+ * 29 >= 32     =>  No      32  ==  0
+ * 29 >= 16     =>  Yes     16  ==  1   Diff    29 - 16 = 13
+ * 13 >= 8      =>  Yes     8   ==  1   Diff    13 - 8  = 5
+ * 5 >= 4       =>  Yes     4   ==  1   Diff    5 - 4   = 1
+ * 1 >= 2       =>  No      2   ==  0
+ * 1 >= 1       =>  Yes     1   ==  1
+ *
+ * Quiz3: convert -93 to 8 bit signed binary using 2's complements
+ *  93      =       0101 1101
+ *  Invert the bit  1010 0010
+ *  Add 1           0000 0001
+ *                  1010 0011
+ *
+ *  Quiz 4: Convert 1010 0010 to an unsigned decimal
+ *  1010 0010   = 1 * 2^7 + 0 * 2^6 + 1 * 2^5 + 0 * 2^4 + 0 * 2^3 + 0 * 2^2 + 1 * 2^1 + 0 * 2^0
+ *              = 128 + 0 + 32 + 0 + 0 + 0 + 2 + 0
+ *              162
+ *  Quiz 5: Convert 1010 0010 to a signed decimal number (assume two’s complement).
+ *
+ *  Binary      1010 0010
+ *  Invert      0101 1101
+ *  Add 1       0000 0001
+ *  Sum         0101 1110
+ *              = 0 * 2^7 + 1 * 2^6 + 0 * 2^5 + 1 * 2^4 + 1 * 2^3 + 1 * 2^2 + 1 * 2^1 + 0 * 2^0
+ *              = 0 + 64 + 0 + 16 + 8 + 4 + 2 + 0 = 78
+ *              Answer -94
+ **/
