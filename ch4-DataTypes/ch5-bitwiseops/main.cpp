@@ -16,8 +16,8 @@ int main() {
     //rotateLeft();
     //bitmask();
     //game();
-    //multibitmasks();
-    quiz1();
+    multibitmasks();
+    //quiz1();
     return 0;
 }
 void quiz1(){
@@ -26,6 +26,9 @@ void quiz1(){
     constexpr std::uint8_t option_favorited{ 0x04 };
     constexpr std::uint8_t option_shared{ 0x08 };
     constexpr std::uint8_t option_deleted{ 0x10 };
+
+    std::uint8_t testflag { (0x5F & 0x6A) };
+    std::cout << "test flag: " << std::bitset<8>{ testflag } << '\n';
 
     std::uint8_t myArticleFlags{ option_favorited };
 
@@ -54,11 +57,19 @@ void multibitmasks(){
         red	            green	        blue	        alpha
      * */
     std::cin >> std::hex >> pixel; // std::hex allows us to read in a hex value
+
+    //cast from hex to binary
     std::uint8_t red{ static_cast<std::uint8_t>((pixel & redBits) >> 24)};
+
     std::uint8_t green{ static_cast<std::uint8_t>((pixel & greenBits) >> 16)};
     std::uint8_t blue{ static_cast<std::uint8_t>((pixel & blueBits) >> 8)};
     std::uint8_t alpha{ static_cast<std::uint8_t>((pixel & alphaBits))};
 
+    //to print binary format
+    //std::cout << "test1.......: " << std::bitset<8>(green) << "\n";
+    //std::cout << "test2.......: " << green << "\n";
+
+    //binary to hex
     std::cout << "Your color contains: \n";
     std::cout << std::hex; // print the following values in hex
     std::cout << static_cast<int>(red) << " red\n";
