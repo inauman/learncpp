@@ -1,0 +1,12 @@
+# ninja log v5
+2	905	1658409823496999428	CMakeFiles/ch6_UserDefinedNamespaces.dir/main.cpp.o	ef1bb86ab03f5790
+3	59	1658409599783358263	CMakeFiles/ch6_UserDefinedNamespaces.dir/goo.cpp.o	39145c182e78a405
+3	58	1658409599782743916	CMakeFiles/ch6_UserDefinedNamespaces.dir/foo.cpp.o	d039184ea9ceac8f
+0	98	1658409857337894048	build.ninja	217d0c95657197cc
+2	68	1658409857415874980	ch6_UserDefinedNamespaces	413953d8411abd53
+2	928	1658409869655174418	CMakeFiles/ch6_UserDefinedNamespaces.dir/main.cpp.o	ef1bb86ab03f5790
+928	989	1658409869720008057	ch6_UserDefinedNamespaces	413953d8411abd53
+2	831	1658410205189493630	CMakeFiles/ch6_UserDefinedNamespaces.dir/main.cpp.o	ef1bb86ab03f5790
+831	895	1658410205257828412	ch6_UserDefinedNamespaces	413953d8411abd53
+2	876	1658410216619087101	CMakeFiles/ch6_UserDefinedNamespaces.dir/main.cpp.o	ef1bb86ab03f5790
+877	938	1658410216684735338	ch6_UserDefinedNamespaces	413953d8411abd53
