@@ -157,6 +157,9 @@
 		},
 		{
 			"path" : "global_var_scope/CMakeLists.txt"
+		},
+		{
+			"path" : "identifier_linkage/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -11,7 +11,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -33,7 +34,7 @@
 					"source" : "user_defined_namespaces",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -48,7 +49,7 @@
 					"source" : "multiple_namespaces",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -63,7 +64,7 @@
 					"source" : "local_var_scope",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -80,6 +81,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "/Users/nauman/Projects/learncpp/ch6/identifier_linkage/identifier_linkage_output",
+					"jsonFile" : "directory-identifier_linkage-Debug-a8c4ce2538b60b3da6e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "identifier_linkage",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -92,7 +108,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"name" : "ch6",
 					"targetIndexes" : 
@@ -100,7 +117,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -111,6 +129,13 @@
 					"id" : "global_var_scope::@eb501ae2f0eac9f82292",
 					"jsonFile" : "target-global_var_scope-Debug-c7206c288dbdd2b56302.json",
 					"name" : "global_var_scope",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "identifier_linkage::@918e4005cfd1c4d4f9cc",
+					"jsonFile" : "target-identifier_linkage-Debug-79b5ae5daddd19f17a9f.json",
+					"name" : "identifier_linkage",
 					"projectIndex" : 0
 				},
 				{
