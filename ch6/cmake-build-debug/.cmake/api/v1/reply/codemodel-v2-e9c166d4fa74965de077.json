@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -31,7 +32,7 @@
 					"source" : "user_defined_namespaces",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -46,6 +47,21 @@
 					"source" : "multiple_namespaces",
 					"targetIndexes" : 
 					[
+						1
+					]
+				},
+				{
+					"build" : "/Users/nauman/Projects/learncpp/ch6/multiple_namespaces/local_var_space_output",
+					"jsonFile" : "directory-local_var_scope-Debug-9c2a06b48e5925365023.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "local_var_scope",
+					"targetIndexes" : 
+					[
 						0
 					]
 				}
@@ -58,18 +74,27 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "ch6",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 3,
+					"id" : "local_var_scope::@c6f1f09db706ab3c7a44",
+					"jsonFile" : "target-local_var_scope-Debug-031cb2ee3502b7f5994e.json",
+					"name" : "local_var_scope",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 2,
 					"id" : "multiple_namespaces::@431e2d2d7f3a5baab56a",

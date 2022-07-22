@@ -151,6 +151,9 @@
 		},
 		{
 			"path" : "multiple_namespaces/CMakeLists.txt"
+		},
+		{
+			"path" : "local_var_scope/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
