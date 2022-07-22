@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -32,7 +33,7 @@
 					"source" : "user_defined_namespaces",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -47,12 +48,12 @@
 					"source" : "multiple_namespaces",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
-					"build" : "/Users/nauman/Projects/learncpp/ch6/multiple_namespaces/local_var_space_output",
-					"jsonFile" : "directory-local_var_scope-Debug-9c2a06b48e5925365023.json",
+					"build" : "/Users/nauman/Projects/learncpp/ch6/local_var_scope/local_var_scope_output",
+					"jsonFile" : "directory-local_var_scope-Debug-16f236be211d496a9350.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -60,6 +61,21 @@
 					"parentIndex" : 0,
 					"projectIndex" : 0,
 					"source" : "local_var_scope",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "/Users/nauman/Projects/learncpp/ch6/global_var_scope/global_var_scope_output",
+					"jsonFile" : "directory-global_var_scope-Debug-364a02828af27fa34110.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "global_var_scope",
 					"targetIndexes" : 
 					[
 						0
@@ -75,23 +91,32 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"name" : "ch6",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 4,
+					"id" : "global_var_scope::@eb501ae2f0eac9f82292",
+					"jsonFile" : "target-global_var_scope-Debug-c7206c288dbdd2b56302.json",
+					"name" : "global_var_scope",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
-					"id" : "local_var_scope::@c6f1f09db706ab3c7a44",
-					"jsonFile" : "target-local_var_scope-Debug-031cb2ee3502b7f5994e.json",
+					"id" : "local_var_scope::@a403d2b8ca1d640e7fd0",
+					"jsonFile" : "target-local_var_scope-Debug-f0a8345790a6acb51bac.json",
 					"name" : "local_var_scope",
 					"projectIndex" : 0
 				},

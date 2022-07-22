@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "/Users/nauman/Projects/learncpp/ch6/multiple_namespaces/local_var_space_output",
+		"build" : "/Users/nauman/Projects/learncpp/ch6/local_var_scope/local_var_scope_output",
 		"source" : "local_var_scope"
 	}
 }

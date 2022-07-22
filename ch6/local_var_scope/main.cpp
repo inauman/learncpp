@@ -17,7 +17,7 @@ int main() {
 
         //instead of the tmp variable, we can use std::swap utility function in future
         //std::swap(smaller, larger);
-        
+
     } //tmp_var dies here
 
     std::cout << "smaller: " << smaller << " & larger: " << larger << std::endl;

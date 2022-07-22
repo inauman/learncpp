@@ -49,7 +49,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nauman/Projects/learncpp/ch6/multiple_namespaces/local_var_space_output/cmake_install.cmake")
+  include("/Users/nauman/Projects/learncpp/ch6/local_var_scope/local_var_scope_output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/nauman/Projects/learncpp/ch6/global_var_scope/global_var_scope_output/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

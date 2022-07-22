@@ -154,6 +154,9 @@
 		},
 		{
 			"path" : "local_var_scope/CMakeLists.txt"
+		},
+		{
+			"path" : "global_var_scope/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

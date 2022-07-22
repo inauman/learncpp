@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/Users/nauman/Projects/learncpp/ch6/global_var_scope/global_var_scope_output",
+		"source" : "global_var_scope"
+	}
+}
