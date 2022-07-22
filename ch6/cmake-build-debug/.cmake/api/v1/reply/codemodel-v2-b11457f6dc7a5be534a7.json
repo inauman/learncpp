@@ -1,0 +1,101 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "/Users/nauman/Projects/learncpp/ch6/user_defined_namespaces/user_defined_namespaces_output",
+					"jsonFile" : "directory-user_defined_namespaces-Debug-3ca1fb7815a61e6c2608.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "user_defined_namespaces",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "/Users/nauman/Projects/learncpp/ch6/multiple_namespaces/multiple_namespaces_output",
+					"jsonFile" : "directory-multiple_namespaces-Debug-bd5046bfcc7c281223be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "multiple_namespaces",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "ch6",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "multiple_namespaces::@431e2d2d7f3a5baab56a",
+					"jsonFile" : "target-multiple_namespaces-Debug-b2df9b4443d255668d24.json",
+					"name" : "multiple_namespaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "user_defined_namespaces::@67bdb7ea58538b52b0ec",
+					"jsonFile" : "target-user_defined_namespaces-Debug-559631ae763b9ac2b441.json",
+					"name" : "user_defined_namespaces",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/nauman/Projects/learncpp/ch6/cmake-build-debug",
+		"source" : "/Users/nauman/Projects/learncpp/ch6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

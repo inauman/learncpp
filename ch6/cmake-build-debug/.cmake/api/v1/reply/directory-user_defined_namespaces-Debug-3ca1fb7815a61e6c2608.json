@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/Users/nauman/Projects/learncpp/ch6/user_defined_namespaces/user_defined_namespaces_output",
+		"source" : "user_defined_namespaces"
+	}
+}

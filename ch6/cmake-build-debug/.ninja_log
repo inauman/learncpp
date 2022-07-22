@@ -1,0 +1,12 @@
+# ninja log v5
+2	833	1658421532846400323	../user_defined_namespaces/user_defined_namespaces_output/CMakeFiles/user_defined_namespaces.dir/main.cpp.o	d4235d02b9d6f6c
+792	853	1658422841908143067	../multiple_namespaces/multiple_namespaces_output/multiple_namespaces	97e7b786ea1b14bf
+833	902	1658421532919611249	../user_defined_namespaces/user_defined_namespaces_output/user_defined_namespaces	640675449dcd955a
+2	928	1658423598082492315	../multiple_namespaces/multiple_namespaces_output/CMakeFiles/multiple_namespaces.dir/main.cpp.o	c03fd3dde85e94ab
+0	61	1658423621623830685	build.ninja	bc2c7ed53b995d7a
+2	55	1658423622396443648	../multiple_namespaces/multiple_namespaces_output/CMakeFiles/multiple_namespaces.dir/add.cpp.o	dfbc5251986385b7
+55	121	1658423622461750250	../multiple_namespaces/multiple_namespaces_output/multiple_namespaces	ee4e67b570c7184
+2	979	1658424425199866554	../multiple_namespaces/multiple_namespaces_output/CMakeFiles/multiple_namespaces.dir/main.cpp.o	c03fd3dde85e94ab
+979	1059	1658424425285029148	../multiple_namespaces/multiple_namespaces_output/multiple_namespaces	ee4e67b570c7184
+2	807	1658424433467960218	../multiple_namespaces/multiple_namespaces_output/CMakeFiles/multiple_namespaces.dir/main.cpp.o	c03fd3dde85e94ab
+807	874	1658424433537972079	../multiple_namespaces/multiple_namespaces_output/multiple_namespaces	ee4e67b570c7184

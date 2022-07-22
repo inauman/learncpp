@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/Users/nauman/Projects/learncpp/ch6/multiple_namespaces/multiple_namespaces_output",
+		"source" : "multiple_namespaces"
+	}
+}
