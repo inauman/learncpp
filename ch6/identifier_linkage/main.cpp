@@ -15,3 +15,13 @@ int main(){
     std::cout << g_var1 << " : " << g_var2 << g_var3 << std::endl;
     return 0;
 }
+
+//define global variables in a namespace as internal variables and encapsulate them in an access function (getter fn)
+namespace constants {
+    constexpr double gravity{9.8};
+}
+
+// and provide the getter function to the internal variable declared in a namespace
+double getGravity(){
+    return constants::gravity;
+}

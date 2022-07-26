@@ -1,22 +1,18 @@
 # ninja log v5
-47	105	1658497831050458653	../identifier_linkage/identifier_linkage_output/identifier_linkage	bdaa8ebcc60f5450
+3022	3349	1658840454996259934	../identifier_linkage/identifier_linkage_output/identifier_linkage	a8320c68325dba60
+833	902	1658421532919611249	../user_defined_namespaces/user_defined_namespaces_output/user_defined_namespaces	640675449dcd955a
+0	61	1658844076251890529	build.ninja	bc2c7ed53b995d7a
 2	833	1658421532846400323	../user_defined_namespaces/user_defined_namespaces_output/CMakeFiles/user_defined_namespaces.dir/main.cpp.o	d4235d02b9d6f6c
 2	816	1658496051711058750	../global_var_scope/global_var_scope_output/CMakeFiles/global_var_scope.dir/main.cpp.o	e93f0138c4c4cf1d
-833	902	1658421532919611249	../user_defined_namespaces/user_defined_namespaces_output/user_defined_namespaces	640675449dcd955a
-0	61	1658498326147473145	build.ninja	bc2c7ed53b995d7a
 3	46	1658495361936497304	../multiple_namespaces/multiple_namespaces_output/CMakeFiles/multiple_namespaces.dir/add.cpp.o	dfbc5251986385b7
 773	829	1658495362719070493	../multiple_namespaces/multiple_namespaces_output/multiple_namespaces	ee4e67b570c7184
 817	875	1658496051774876187	../global_var_scope/global_var_scope_output/global_var_scope	aeb2d2ffbedf7fa4
 2	773	1658495362659846515	../multiple_namespaces/multiple_namespaces_output/CMakeFiles/multiple_namespaces.dir/main.cpp.o	c03fd3dde85e94ab
 791	846	1658495332215862697	../local_var_scope/local_var_scope_output/local_var_scope	c264a917658b4b3e
-2	766	1658497705921110141	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/main.cpp.o	a51c43142cb6b203
-0	791	1658495332157993885	../local_var_scope/local_var_scope_output/CMakeFiles/local_var_scope.dir/main.cpp.o	c98b41900c084456
-2	47	1658497830993547048	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/add.cpp.o	43c3ebe224986148
-4	68	1658498547049499418	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/a.cpp.o	b813f3a32c7eaeee
-3	69	1658498547049998047	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/add.cpp.o	43c3ebe224986148
-3	900	1658498547877940079	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/main.cpp.o	a51c43142cb6b203
-900	955	1658498547937920892	../identifier_linkage/identifier_linkage_output/identifier_linkage	a8320c68325dba60
-2	42	1658498560500956399	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/a.cpp.o	b813f3a32c7eaeee
-42	97	1658498560554700159	../identifier_linkage/identifier_linkage_output/identifier_linkage	a8320c68325dba60
 8	3022	1658840454660684046	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/main.cpp.o	a51c43142cb6b203
-3022	3349	1658840454996259934	../identifier_linkage/identifier_linkage_output/identifier_linkage	a8320c68325dba60
+3	69	1658498547049998047	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/add.cpp.o	43c3ebe224986148
+0	791	1658495332157993885	../local_var_scope/local_var_scope_output/CMakeFiles/local_var_scope.dir/main.cpp.o	c98b41900c084456
+2	42	1658498560500956399	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/a.cpp.o	b813f3a32c7eaeee
+1	296	1658844099789238561	../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/constants.cpp.o	746c0b3944d20765
+1	1062	1658844100555168704	../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/main.cpp.o	60e2c5b481d52bdd
+1062	1130	1658844100626965617	../ global_variable_sharing / global_variable_sharing_output/global_variable_sharing	222f23a9f067b4c5

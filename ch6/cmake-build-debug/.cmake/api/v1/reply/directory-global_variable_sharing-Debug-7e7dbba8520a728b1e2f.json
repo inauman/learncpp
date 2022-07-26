@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/Users/nauman/Projects/learncpp/ch6/ global_variable_sharing / global_variable_sharing_output",
+		"source" : "global_variable_sharing"
+	}
+}
