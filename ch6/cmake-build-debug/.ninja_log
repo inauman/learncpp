@@ -1,24 +1,33 @@
 # ninja log v5
-3022	3349	1658840454996259934	../identifier_linkage/identifier_linkage_output/identifier_linkage	a8320c68325dba60
-2	833	1658421532846400323	../user_defined_namespaces/user_defined_namespaces_output/CMakeFiles/user_defined_namespaces.dir/main.cpp.o	d4235d02b9d6f6c
-2	816	1658496051711058750	../global_var_scope/global_var_scope_output/CMakeFiles/global_var_scope.dir/main.cpp.o	e93f0138c4c4cf1d
-0	61	1659116568742941646	build.ninja	bc2c7ed53b995d7a
-833	902	1658421532919611249	../user_defined_namespaces/user_defined_namespaces_output/user_defined_namespaces	640675449dcd955a
-3	69	1658498547049998047	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/add.cpp.o	43c3ebe224986148
-817	875	1658496051774876187	../global_var_scope/global_var_scope_output/global_var_scope	aeb2d2ffbedf7fa4
-2	773	1658495362659846515	../multiple_namespaces/multiple_namespaces_output/CMakeFiles/multiple_namespaces.dir/main.cpp.o	c03fd3dde85e94ab
-791	846	1658495332215862697	../local_var_scope/local_var_scope_output/local_var_scope	c264a917658b4b3e
-2	42	1658498560500956399	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/a.cpp.o	b813f3a32c7eaeee
-0	791	1658495332157993885	../local_var_scope/local_var_scope_output/CMakeFiles/local_var_scope.dir/main.cpp.o	c98b41900c084456
-3025	3352	1659108543831973501	../static_local_variable/static_local_variable_output/static_local_variable	e5be47f61ad0a6a1
-8	3022	1658840454660684046	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/main.cpp.o	a51c43142cb6b203
-1	296	1658844099789238561	../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/constants.cpp.o	746c0b3944d20765
-773	829	1658495362719070493	../multiple_namespaces/multiple_namespaces_output/multiple_namespaces	ee4e67b570c7184
-3	46	1658495361936497304	../multiple_namespaces/multiple_namespaces_output/CMakeFiles/multiple_namespaces.dir/add.cpp.o	dfbc5251986385b7
-3091	3428	1659015625761955110	../ global_variable_sharing / global_variable_sharing_output/global_variable_sharing	222f23a9f067b4c5
-0	3091	1659015625419325318	../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/main.cpp.o	60e2c5b481d52bdd
-2	3025	1659108543498852077	../static_local_variable/static_local_variable_output/CMakeFiles/static_local_variable.dir/main.cpp.o	604230500da89942
-1	897	1659116776792131851	../inline_namespaces/inline_namespaces_output/CMakeFiles/inline_namespaces.dir/main.cpp.o	3085c8fcb210a0ff
-897	962	1659116776861059709	../inline_namespaces/inline_namespaces_output/inline_namespaces	a628c1ba4b3b9af0
-2	792	1659116800226891269	../inline_namespaces/inline_namespaces_output/CMakeFiles/inline_namespaces.dir/main.cpp.o	3085c8fcb210a0ff
+821	881	1659117693896717174	../quiz1/quiz1_output/quiz1	a44891b9bc538703
 792	858	1659116800297241265	../inline_namespaces/inline_namespaces_output/inline_namespaces	a628c1ba4b3b9af0
+0	821	1659117693834439872	../quiz1/quiz1_output/CMakeFiles/quiz1.dir/main.cpp.o	ff77f37be9c820cd
+2	792	1659116800226891269	../inline_namespaces/inline_namespaces_output/CMakeFiles/inline_namespaces.dir/main.cpp.o	3085c8fcb210a0ff
+2	3025	1659108543498852077	../static_local_variable/static_local_variable_output/CMakeFiles/static_local_variable.dir/main.cpp.o	604230500da89942
+0	3091	1659015625419325318	../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/main.cpp.o	60e2c5b481d52bdd
+3091	3428	1659015625761955110	../ global_variable_sharing / global_variable_sharing_output/global_variable_sharing	222f23a9f067b4c5
+3	46	1658495361936497304	../multiple_namespaces/multiple_namespaces_output/CMakeFiles/multiple_namespaces.dir/add.cpp.o	dfbc5251986385b7
+773	829	1658495362719070493	../multiple_namespaces/multiple_namespaces_output/multiple_namespaces	ee4e67b570c7184
+1	296	1658844099789238561	../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/constants.cpp.o	746c0b3944d20765
+8	3022	1658840454660684046	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/main.cpp.o	a51c43142cb6b203
+3025	3352	1659108543831973501	../static_local_variable/static_local_variable_output/static_local_variable	e5be47f61ad0a6a1
+0	791	1658495332157993885	../local_var_scope/local_var_scope_output/CMakeFiles/local_var_scope.dir/main.cpp.o	c98b41900c084456
+2	42	1658498560500956399	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/a.cpp.o	b813f3a32c7eaeee
+791	846	1658495332215862697	../local_var_scope/local_var_scope_output/local_var_scope	c264a917658b4b3e
+2	773	1658495362659846515	../multiple_namespaces/multiple_namespaces_output/CMakeFiles/multiple_namespaces.dir/main.cpp.o	c03fd3dde85e94ab
+817	875	1658496051774876187	../global_var_scope/global_var_scope_output/global_var_scope	aeb2d2ffbedf7fa4
+3	69	1658498547049998047	../identifier_linkage/identifier_linkage_output/CMakeFiles/identifier_linkage.dir/add.cpp.o	43c3ebe224986148
+833	902	1658421532919611249	../user_defined_namespaces/user_defined_namespaces_output/user_defined_namespaces	640675449dcd955a
+0	61	1659117828334133899	build.ninja	bc2c7ed53b995d7a
+2	816	1658496051711058750	../global_var_scope/global_var_scope_output/CMakeFiles/global_var_scope.dir/main.cpp.o	e93f0138c4c4cf1d
+2	833	1658421532846400323	../user_defined_namespaces/user_defined_namespaces_output/CMakeFiles/user_defined_namespaces.dir/main.cpp.o	d4235d02b9d6f6c
+3022	3349	1658840454996259934	../identifier_linkage/identifier_linkage_output/identifier_linkage	a8320c68325dba60
+0	95	1659117828334133899	build.ninja	bc2c7ed53b995d7a
+1	855	1659117829205107125	../quiz2/quiz2_output/CMakeFiles/quiz2.dir/main.cpp.o	55e18e089ae527f1
+855	916	1659117829269395974	../quiz2/quiz2_output/quiz2	167848fcd27b70e7
+2	833	1659117877765634610	../quiz2/quiz2_output/CMakeFiles/quiz2.dir/main.cpp.o	55e18e089ae527f1
+834	902	1659117877836970899	../quiz2/quiz2_output/quiz2	167848fcd27b70e7
+0	847	1659118305903329145	../quiz3/quiz3_output/CMakeFiles/quiz3.dir/main.cpp.o	23f75d7ef83284d
+847	913	1659118305972768636	../quiz3/quiz3_output/quiz3	ff9ab3f6fd044519
+2	837	1659118350938942368	../quiz3/quiz3_output/CMakeFiles/quiz3.dir/main.cpp.o	23f75d7ef83284d
+837	902	1659118351007624065	../quiz3/quiz3_output/quiz3	ff9ab3f6fd044519

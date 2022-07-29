@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/Users/nauman/Projects/learncpp/ch6/quiz2/quiz2_output",
+		"source" : "quiz2"
+	}
+}

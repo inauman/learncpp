@@ -169,6 +169,15 @@
 		},
 		{
 			"path" : "inline_namespaces/CMakeLists.txt"
+		},
+		{
+			"path" : "quiz1/CMakeLists.txt"
+		},
+		{
+			"path" : "quiz2/CMakeLists.txt"
+		},
+		{
+			"path" : "quiz3/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

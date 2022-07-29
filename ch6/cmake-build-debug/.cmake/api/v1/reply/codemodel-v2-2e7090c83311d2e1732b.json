@@ -15,7 +15,10 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -37,7 +40,7 @@
 					"source" : "user_defined_namespaces",
 					"targetIndexes" : 
 					[
-						7
+						10
 					]
 				},
 				{
@@ -127,7 +130,7 @@
 					"source" : "static_local_variable",
 					"targetIndexes" : 
 					[
-						6
+						9
 					]
 				},
 				{
@@ -143,6 +146,51 @@
 					"targetIndexes" : 
 					[
 						3
+					]
+				},
+				{
+					"build" : "/Users/nauman/Projects/learncpp/ch6/quiz1/quiz1_output",
+					"jsonFile" : "directory-quiz1-Debug-bbc2b4f8b47548db4b1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "quiz1",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "/Users/nauman/Projects/learncpp/ch6/quiz2/quiz2_output",
+					"jsonFile" : "directory-quiz2-Debug-493d9051dd585d3e8b92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "quiz2",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "/Users/nauman/Projects/learncpp/ch6/quiz3/quiz3_output",
+					"jsonFile" : "directory-quiz3-Debug-e6cd42ecd5d51f47955e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "quiz3",
+					"targetIndexes" : 
+					[
+						8
 					]
 				}
 			],
@@ -160,7 +208,10 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11
 					],
 					"name" : "ch6",
 					"targetIndexes" : 
@@ -172,7 +223,10 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10
 					]
 				}
 			],
@@ -218,6 +272,27 @@
 					"id" : "multiple_namespaces::@431e2d2d7f3a5baab56a",
 					"jsonFile" : "target-multiple_namespaces-Debug-b2df9b4443d255668d24.json",
 					"name" : "multiple_namespaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "quiz1::@392c6d57c42326825865",
+					"jsonFile" : "target-quiz1-Debug-1c2559db46934514bd5f.json",
+					"name" : "quiz1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "quiz2::@f5f47e3a6dbde069a03e",
+					"jsonFile" : "target-quiz2-Debug-63aa98e8d6293dcefab7.json",
+					"name" : "quiz2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "quiz3::@b343915ead92615c3c9b",
+					"jsonFile" : "target-quiz3-Debug-cc9a73376faf645a00eb.json",
+					"name" : "quiz3",
 					"projectIndex" : 0
 				},
 				{

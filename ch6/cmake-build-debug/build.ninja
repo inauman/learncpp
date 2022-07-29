@@ -560,6 +560,183 @@ build ../inline_namespaces/inline_namespaces_output/CMakeFiles/rebuild_cache.uti
 build ../inline_namespaces/inline_namespaces_output/rebuild_cache: phony ../inline_namespaces/inline_namespaces_output/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/nauman/Projects/learncpp/ch6/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quiz1
+
+
+#############################################
+# Order-only phony target for quiz1
+
+build cmake_object_order_depends_target_quiz1: phony || ../quiz1/quiz1_output/CMakeFiles/quiz1.dir
+
+build ../quiz1/quiz1_output/CMakeFiles/quiz1.dir/main.cpp.o: CXX_COMPILER__quiz1_Debug /Users/nauman/Projects/learncpp/ch6/quiz1/main.cpp || cmake_object_order_depends_target_quiz1
+  DEP_FILE = ../quiz1/quiz1_output/CMakeFiles/quiz1.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
+  OBJECT_DIR = ../quiz1/quiz1_output/CMakeFiles/quiz1.dir
+  OBJECT_FILE_DIR = ../quiz1/quiz1_output/CMakeFiles/quiz1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quiz1
+
+
+#############################################
+# Link the executable ../quiz1/quiz1_output/quiz1
+
+build ../quiz1/quiz1_output/quiz1: CXX_EXECUTABLE_LINKER__quiz1_Debug ../quiz1/quiz1_output/CMakeFiles/quiz1.dir/main.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../quiz1/quiz1_output/CMakeFiles/quiz1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../quiz1/quiz1_output/quiz1
+  TARGET_PDB = quiz1.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../quiz1/quiz1_output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nauman/Projects/learncpp/ch6/quiz1/quiz1_output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../quiz1/quiz1_output/edit_cache: phony ../quiz1/quiz1_output/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../quiz1/quiz1_output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nauman/Projects/learncpp/ch6/quiz1/quiz1_output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/nauman/Projects/learncpp/ch6 -B/Users/nauman/Projects/learncpp/ch6/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../quiz1/quiz1_output/rebuild_cache: phony ../quiz1/quiz1_output/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/nauman/Projects/learncpp/ch6/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quiz2
+
+
+#############################################
+# Order-only phony target for quiz2
+
+build cmake_object_order_depends_target_quiz2: phony || ../quiz2/quiz2_output/CMakeFiles/quiz2.dir
+
+build ../quiz2/quiz2_output/CMakeFiles/quiz2.dir/main.cpp.o: CXX_COMPILER__quiz2_Debug /Users/nauman/Projects/learncpp/ch6/quiz2/main.cpp || cmake_object_order_depends_target_quiz2
+  DEP_FILE = ../quiz2/quiz2_output/CMakeFiles/quiz2.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
+  OBJECT_DIR = ../quiz2/quiz2_output/CMakeFiles/quiz2.dir
+  OBJECT_FILE_DIR = ../quiz2/quiz2_output/CMakeFiles/quiz2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quiz2
+
+
+#############################################
+# Link the executable ../quiz2/quiz2_output/quiz2
+
+build ../quiz2/quiz2_output/quiz2: CXX_EXECUTABLE_LINKER__quiz2_Debug ../quiz2/quiz2_output/CMakeFiles/quiz2.dir/main.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../quiz2/quiz2_output/CMakeFiles/quiz2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../quiz2/quiz2_output/quiz2
+  TARGET_PDB = quiz2.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../quiz2/quiz2_output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nauman/Projects/learncpp/ch6/quiz2/quiz2_output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../quiz2/quiz2_output/edit_cache: phony ../quiz2/quiz2_output/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../quiz2/quiz2_output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nauman/Projects/learncpp/ch6/quiz2/quiz2_output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/nauman/Projects/learncpp/ch6 -B/Users/nauman/Projects/learncpp/ch6/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../quiz2/quiz2_output/rebuild_cache: phony ../quiz2/quiz2_output/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/nauman/Projects/learncpp/ch6/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quiz3
+
+
+#############################################
+# Order-only phony target for quiz3
+
+build cmake_object_order_depends_target_quiz3: phony || ../quiz3/quiz3_output/CMakeFiles/quiz3.dir
+
+build ../quiz3/quiz3_output/CMakeFiles/quiz3.dir/main.cpp.o: CXX_COMPILER__quiz3_Debug /Users/nauman/Projects/learncpp/ch6/quiz3/main.cpp || cmake_object_order_depends_target_quiz3
+  DEP_FILE = ../quiz3/quiz3_output/CMakeFiles/quiz3.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
+  OBJECT_DIR = ../quiz3/quiz3_output/CMakeFiles/quiz3.dir
+  OBJECT_FILE_DIR = ../quiz3/quiz3_output/CMakeFiles/quiz3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quiz3
+
+
+#############################################
+# Link the executable ../quiz3/quiz3_output/quiz3
+
+build ../quiz3/quiz3_output/quiz3: CXX_EXECUTABLE_LINKER__quiz3_Debug ../quiz3/quiz3_output/CMakeFiles/quiz3.dir/main.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../quiz3/quiz3_output/CMakeFiles/quiz3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../quiz3/quiz3_output/quiz3
+  TARGET_PDB = quiz3.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../quiz3/quiz3_output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nauman/Projects/learncpp/ch6/quiz3/quiz3_output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../quiz3/quiz3_output/edit_cache: phony ../quiz3/quiz3_output/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../quiz3/quiz3_output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nauman/Projects/learncpp/ch6/quiz3/quiz3_output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/nauman/Projects/learncpp/ch6 -B/Users/nauman/Projects/learncpp/ch6/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../quiz3/quiz3_output/rebuild_cache: phony ../quiz3/quiz3_output/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build global_var_scope: phony ../global_var_scope/global_var_scope_output/global_var_scope
@@ -574,6 +751,12 @@ build local_var_scope: phony ../local_var_scope/local_var_scope_output/local_var
 
 build multiple_namespaces: phony ../multiple_namespaces/multiple_namespaces_output/multiple_namespaces
 
+build quiz1: phony ../quiz1/quiz1_output/quiz1
+
+build quiz2: phony ../quiz2/quiz2_output/quiz2
+
+build quiz3: phony ../quiz3/quiz3_output/quiz3
+
 build static_local_variable: phony ../static_local_variable/static_local_variable_output/static_local_variable
 
 build user_defined_namespaces: phony ../user_defined_namespaces/user_defined_namespaces_output/user_defined_namespaces
@@ -586,7 +769,7 @@ build user_defined_namespaces: phony ../user_defined_namespaces/user_defined_nam
 #############################################
 # Folder: /Users/nauman/Projects/learncpp/ch6/cmake-build-debug
 
-build all: phony ../user_defined_namespaces/user_defined_namespaces_output/all ../multiple_namespaces/multiple_namespaces_output/all ../local_var_scope/local_var_scope_output/all ../global_var_scope/global_var_scope_output/all ../identifier_linkage/identifier_linkage_output/all ../global_variable_sharing/global_variable_sharing_output/all ../static_local_variable/static_local_variable_output/all ../inline_namespaces/inline_namespaces_output/all
+build all: phony ../user_defined_namespaces/user_defined_namespaces_output/all ../multiple_namespaces/multiple_namespaces_output/all ../local_var_scope/local_var_scope_output/all ../global_var_scope/global_var_scope_output/all ../identifier_linkage/identifier_linkage_output/all ../global_variable_sharing/global_variable_sharing_output/all ../static_local_variable/static_local_variable_output/all ../inline_namespaces/inline_namespaces_output/all ../quiz1/quiz1_output/all ../quiz2/quiz2_output/all ../quiz3/quiz3_output/all
 
 # =============================================================================
 
@@ -633,6 +816,27 @@ build ../multiple_namespaces/multiple_namespaces_output/all: phony ../multiple_n
 # =============================================================================
 
 #############################################
+# Folder: /Users/nauman/Projects/learncpp/ch6/quiz1/quiz1_output
+
+build ../quiz1/quiz1_output/all: phony ../quiz1/quiz1_output/quiz1
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/nauman/Projects/learncpp/ch6/quiz2/quiz2_output
+
+build ../quiz2/quiz2_output/all: phony ../quiz2/quiz2_output/quiz2
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/nauman/Projects/learncpp/ch6/quiz3/quiz3_output
+
+build ../quiz3/quiz3_output/all: phony ../quiz3/quiz3_output/quiz3
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/nauman/Projects/learncpp/ch6/static_local_variable/static_local_variable_output
 
 build ../static_local_variable/static_local_variable_output/all: phony ../static_local_variable/static_local_variable_output/static_local_variable
@@ -651,14 +855,14 @@ build ../user_defined_namespaces/user_defined_namespaces_output/all: phony ../us
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../global_var_scope/CMakeLists.txt ../global_variable_sharing/CMakeLists.txt ../identifier_linkage/CMakeLists.txt ../inline_namespaces/CMakeLists.txt ../local_var_scope/CMakeLists.txt ../multiple_namespaces/CMakeLists.txt ../static_local_variable/CMakeLists.txt ../user_defined_namespaces/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../global_var_scope/CMakeLists.txt ../global_variable_sharing/CMakeLists.txt ../identifier_linkage/CMakeLists.txt ../inline_namespaces/CMakeLists.txt ../local_var_scope/CMakeLists.txt ../multiple_namespaces/CMakeLists.txt ../quiz1/CMakeLists.txt ../quiz2/CMakeLists.txt ../quiz3/CMakeLists.txt ../static_local_variable/CMakeLists.txt ../user_defined_namespaces/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../global_var_scope/CMakeLists.txt ../global_variable_sharing/CMakeLists.txt ../identifier_linkage/CMakeLists.txt ../inline_namespaces/CMakeLists.txt ../local_var_scope/CMakeLists.txt ../multiple_namespaces/CMakeLists.txt ../static_local_variable/CMakeLists.txt ../user_defined_namespaces/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../global_var_scope/CMakeLists.txt ../global_variable_sharing/CMakeLists.txt ../identifier_linkage/CMakeLists.txt ../inline_namespaces/CMakeLists.txt ../local_var_scope/CMakeLists.txt ../multiple_namespaces/CMakeLists.txt ../quiz1/CMakeLists.txt ../quiz2/CMakeLists.txt ../quiz3/CMakeLists.txt ../static_local_variable/CMakeLists.txt ../user_defined_namespaces/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################
