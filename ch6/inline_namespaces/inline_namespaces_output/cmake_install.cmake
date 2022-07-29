@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nauman/Projects/learncpp/ch6/static_local_variable
+# Install script for directory: /Users/nauman/Projects/learncpp/ch6/inline_namespaces
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

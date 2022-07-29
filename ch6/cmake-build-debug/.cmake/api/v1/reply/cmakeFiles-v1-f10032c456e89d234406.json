@@ -166,6 +166,9 @@
 		},
 		{
 			"path" : "static_local_variable/CMakeLists.txt"
+		},
+		{
+			"path" : "inline_namespaces/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

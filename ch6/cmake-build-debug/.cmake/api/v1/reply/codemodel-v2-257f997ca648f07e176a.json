@@ -14,7 +14,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -36,7 +37,7 @@
 					"source" : "user_defined_namespaces",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -51,7 +52,7 @@
 					"source" : "multiple_namespaces",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -66,7 +67,7 @@
 					"source" : "local_var_scope",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -126,7 +127,22 @@
 					"source" : "static_local_variable",
 					"targetIndexes" : 
 					[
-						5
+						6
+					]
+				},
+				{
+					"build" : "/Users/nauman/Projects/learncpp/ch6/inline_namespaces/inline_namespaces_output",
+					"jsonFile" : "directory-inline_namespaces-Debug-4d511699a4a967f0d73d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "inline_namespaces",
+					"targetIndexes" : 
+					[
+						3
 					]
 				}
 			],
@@ -143,7 +159,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"name" : "ch6",
 					"targetIndexes" : 
@@ -154,7 +171,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -179,6 +197,13 @@
 					"id" : "identifier_linkage::@918e4005cfd1c4d4f9cc",
 					"jsonFile" : "target-identifier_linkage-Debug-79b5ae5daddd19f17a9f.json",
 					"name" : "identifier_linkage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "inline_namespaces::@f1c8b5c6460841b8e21c",
+					"jsonFile" : "target-inline_namespaces-Debug-d2ee3b7d02b7e3f61432.json",
+					"name" : "inline_namespaces",
 					"projectIndex" : 0
 				},
 				{
