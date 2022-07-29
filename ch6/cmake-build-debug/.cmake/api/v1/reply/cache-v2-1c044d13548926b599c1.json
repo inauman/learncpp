@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "7"
+			"value" : "8"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nauman/Projects/learncpp/ch6/ global_variable_sharing / global_variable_sharing_output"
+			"value" : "/Users/nauman/Projects/learncpp/ch6/static_local_variable/static_local_variable_output"
 		},
 		{
 			"name" : "ch6_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nauman/Projects/learncpp/ch6/global_variable_sharing"
+			"value" : "/Users/nauman/Projects/learncpp/ch6/static_local_variable"
 		}
 	],
 	"kind" : "cache",

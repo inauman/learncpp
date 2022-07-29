@@ -13,7 +13,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -35,7 +36,7 @@
 					"source" : "user_defined_namespaces",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -99,8 +100,8 @@
 					]
 				},
 				{
-					"build" : "/Users/nauman/Projects/learncpp/ch6/ global_variable_sharing / global_variable_sharing_output",
-					"jsonFile" : "directory-global_variable_sharing-Debug-7e7dbba8520a728b1e2f.json",
+					"build" : "/Users/nauman/Projects/learncpp/ch6/global_variable_sharing/global_variable_sharing_output",
+					"jsonFile" : "directory-global_variable_sharing-Debug-32e74606e17ad1343a25.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -111,6 +112,21 @@
 					"targetIndexes" : 
 					[
 						1
+					]
+				},
+				{
+					"build" : "/Users/nauman/Projects/learncpp/ch6/static_local_variable/static_local_variable_output",
+					"jsonFile" : "directory-static_local_variable-Debug-e6e3fba31274ddc7fffb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "static_local_variable",
+					"targetIndexes" : 
+					[
+						5
 					]
 				}
 			],
@@ -126,7 +142,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"name" : "ch6",
 					"targetIndexes" : 
@@ -136,7 +153,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -151,8 +169,8 @@
 				},
 				{
 					"directoryIndex" : 6,
-					"id" : "global_variable_sharing::@1eee7ec74d73ed336dc8",
-					"jsonFile" : "target-global_variable_sharing-Debug-76637e500a5865458744.json",
+					"id" : "global_variable_sharing::@4b98139e49ac1937c8f2",
+					"jsonFile" : "target-global_variable_sharing-Debug-1d88b05cfdaaf5308bcf.json",
 					"name" : "global_variable_sharing",
 					"projectIndex" : 0
 				},
@@ -175,6 +193,13 @@
 					"id" : "multiple_namespaces::@431e2d2d7f3a5baab56a",
 					"jsonFile" : "target-multiple_namespaces-Debug-b2df9b4443d255668d24.json",
 					"name" : "multiple_namespaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "static_local_variable::@af018b9b35535fa7d46f",
+					"jsonFile" : "target-static_local_variable-Debug-473b727e55d2c8f67704.json",
+					"name" : "static_local_variable",
 					"projectIndex" : 0
 				},
 				{

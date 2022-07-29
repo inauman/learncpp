@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/Users/nauman/Projects/learncpp/ch6/ global_variable_sharing / global_variable_sharing_output/global_variable_sharing"
+			"path" : "/Users/nauman/Projects/learncpp/ch6/global_variable_sharing/global_variable_sharing_output/global_variable_sharing"
 		}
 	],
 	"backtrace" : 1,
@@ -57,7 +57,7 @@
 			]
 		}
 	],
-	"id" : "global_variable_sharing::@1eee7ec74d73ed336dc8",
+	"id" : "global_variable_sharing::@4b98139e49ac1937c8f2",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,7 +77,7 @@
 	"nameOnDisk" : "global_variable_sharing",
 	"paths" : 
 	{
-		"build" : "/Users/nauman/Projects/learncpp/ch6/ global_variable_sharing / global_variable_sharing_output",
+		"build" : "/Users/nauman/Projects/learncpp/ch6/global_variable_sharing/global_variable_sharing_output",
 		"source" : "global_variable_sharing"
 	},
 	"sourceGroups" : 

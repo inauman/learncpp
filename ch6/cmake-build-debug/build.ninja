@@ -388,19 +388,19 @@ build ../identifier_linkage/identifier_linkage_output/rebuild_cache: phony ../id
 #############################################
 # Order-only phony target for global_variable_sharing
 
-build cmake_object_order_depends_target_global_variable_sharing: phony || ../$ global_variable_sharing$ /$ global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir
+build cmake_object_order_depends_target_global_variable_sharing: phony || ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir
 
-build ../$ global_variable_sharing$ /$ global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/main.cpp.o: CXX_COMPILER__global_variable_sharing_Debug /Users/nauman/Projects/learncpp/ch6/global_variable_sharing/main.cpp || cmake_object_order_depends_target_global_variable_sharing
-  DEP_FILE = "../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/main.cpp.o.d"
+build ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/main.cpp.o: CXX_COMPILER__global_variable_sharing_Debug /Users/nauman/Projects/learncpp/ch6/global_variable_sharing/main.cpp || cmake_object_order_depends_target_global_variable_sharing
+  DEP_FILE = ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/main.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
-  OBJECT_DIR = "../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir"
-  OBJECT_FILE_DIR = "../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir"
+  OBJECT_DIR = ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir
+  OBJECT_FILE_DIR = ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir
 
-build ../$ global_variable_sharing$ /$ global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/constants.cpp.o: CXX_COMPILER__global_variable_sharing_Debug /Users/nauman/Projects/learncpp/ch6/global_variable_sharing/constants.cpp || cmake_object_order_depends_target_global_variable_sharing
-  DEP_FILE = "../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/constants.cpp.o.d"
+build ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/constants.cpp.o: CXX_COMPILER__global_variable_sharing_Debug /Users/nauman/Projects/learncpp/ch6/global_variable_sharing/constants.cpp || cmake_object_order_depends_target_global_variable_sharing
+  DEP_FILE = ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/constants.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
-  OBJECT_DIR = "../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir"
-  OBJECT_FILE_DIR = "../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir"
+  OBJECT_DIR = ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir
+  OBJECT_FILE_DIR = ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir
 
 
 # =============================================================================
@@ -408,51 +408,112 @@ build ../$ global_variable_sharing$ /$ global_variable_sharing_output/CMakeFiles
 
 
 #############################################
-# Link the executable ../ global_variable_sharing / global_variable_sharing_output/global_variable_sharing
+# Link the executable ../global_variable_sharing/global_variable_sharing_output/global_variable_sharing
 
-build ../$ global_variable_sharing$ /$ global_variable_sharing_output/global_variable_sharing: CXX_EXECUTABLE_LINKER__global_variable_sharing_Debug ../$ global_variable_sharing$ /$ global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/main.cpp.o ../$ global_variable_sharing$ /$ global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/constants.cpp.o
+build ../global_variable_sharing/global_variable_sharing_output/global_variable_sharing: CXX_EXECUTABLE_LINKER__global_variable_sharing_Debug ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/main.cpp.o ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir/constants.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = "../ global_variable_sharing / global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir"
+  OBJECT_DIR = ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/global_variable_sharing.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = "../ global_variable_sharing / global_variable_sharing_output/global_variable_sharing"
+  TARGET_FILE = ../global_variable_sharing/global_variable_sharing_output/global_variable_sharing
   TARGET_PDB = global_variable_sharing.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build ../$ global_variable_sharing$ /$ global_variable_sharing_output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/nauman/Projects/learncpp/ch6/ global_variable_sharing / global_variable_sharing_output" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nauman/Projects/learncpp/ch6/global_variable_sharing/global_variable_sharing_output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build ../$ global_variable_sharing$ /$ global_variable_sharing_output/edit_cache: phony ../$ global_variable_sharing$ /$ global_variable_sharing_output/CMakeFiles/edit_cache.util
+build ../global_variable_sharing/global_variable_sharing_output/edit_cache: phony ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build ../$ global_variable_sharing$ /$ global_variable_sharing_output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/nauman/Projects/learncpp/ch6/ global_variable_sharing / global_variable_sharing_output" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/nauman/Projects/learncpp/ch6 -B/Users/nauman/Projects/learncpp/ch6/cmake-build-debug
+build ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nauman/Projects/learncpp/ch6/global_variable_sharing/global_variable_sharing_output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/nauman/Projects/learncpp/ch6 -B/Users/nauman/Projects/learncpp/ch6/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build ../$ global_variable_sharing$ /$ global_variable_sharing_output/rebuild_cache: phony ../$ global_variable_sharing$ /$ global_variable_sharing_output/CMakeFiles/rebuild_cache.util
+build ../global_variable_sharing/global_variable_sharing_output/rebuild_cache: phony ../global_variable_sharing/global_variable_sharing_output/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/nauman/Projects/learncpp/ch6/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target static_local_variable
+
+
+#############################################
+# Order-only phony target for static_local_variable
+
+build cmake_object_order_depends_target_static_local_variable: phony || ../static_local_variable/static_local_variable_output/CMakeFiles/static_local_variable.dir
+
+build ../static_local_variable/static_local_variable_output/CMakeFiles/static_local_variable.dir/main.cpp.o: CXX_COMPILER__static_local_variable_Debug /Users/nauman/Projects/learncpp/ch6/static_local_variable/main.cpp || cmake_object_order_depends_target_static_local_variable
+  DEP_FILE = ../static_local_variable/static_local_variable_output/CMakeFiles/static_local_variable.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
+  OBJECT_DIR = ../static_local_variable/static_local_variable_output/CMakeFiles/static_local_variable.dir
+  OBJECT_FILE_DIR = ../static_local_variable/static_local_variable_output/CMakeFiles/static_local_variable.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target static_local_variable
+
+
+#############################################
+# Link the executable ../static_local_variable/static_local_variable_output/static_local_variable
+
+build ../static_local_variable/static_local_variable_output/static_local_variable: CXX_EXECUTABLE_LINKER__static_local_variable_Debug ../static_local_variable/static_local_variable_output/CMakeFiles/static_local_variable.dir/main.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../static_local_variable/static_local_variable_output/CMakeFiles/static_local_variable.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../static_local_variable/static_local_variable_output/static_local_variable
+  TARGET_PDB = static_local_variable.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../static_local_variable/static_local_variable_output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nauman/Projects/learncpp/ch6/static_local_variable/static_local_variable_output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../static_local_variable/static_local_variable_output/edit_cache: phony ../static_local_variable/static_local_variable_output/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../static_local_variable/static_local_variable_output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/nauman/Projects/learncpp/ch6/static_local_variable/static_local_variable_output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/nauman/Projects/learncpp/ch6 -B/Users/nauman/Projects/learncpp/ch6/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../static_local_variable/static_local_variable_output/rebuild_cache: phony ../static_local_variable/static_local_variable_output/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
 build global_var_scope: phony ../global_var_scope/global_var_scope_output/global_var_scope
 
-build global_variable_sharing: phony ../$ global_variable_sharing$ /$ global_variable_sharing_output/global_variable_sharing
+build global_variable_sharing: phony ../global_variable_sharing/global_variable_sharing_output/global_variable_sharing
 
 build identifier_linkage: phony ../identifier_linkage/identifier_linkage_output/identifier_linkage
 
 build local_var_scope: phony ../local_var_scope/local_var_scope_output/local_var_scope
 
 build multiple_namespaces: phony ../multiple_namespaces/multiple_namespaces_output/multiple_namespaces
+
+build static_local_variable: phony ../static_local_variable/static_local_variable_output/static_local_variable
 
 build user_defined_namespaces: phony ../user_defined_namespaces/user_defined_namespaces_output/user_defined_namespaces
 
@@ -462,16 +523,9 @@ build user_defined_namespaces: phony ../user_defined_namespaces/user_defined_nam
 # =============================================================================
 
 #############################################
-# Folder: /Users/nauman/Projects/learncpp/ch6/ global_variable_sharing / global_variable_sharing_output
-
-build ../$ global_variable_sharing$ /$ global_variable_sharing_output/all: phony ../$ global_variable_sharing$ /$ global_variable_sharing_output/global_variable_sharing
-
-# =============================================================================
-
-#############################################
 # Folder: /Users/nauman/Projects/learncpp/ch6/cmake-build-debug
 
-build all: phony ../user_defined_namespaces/user_defined_namespaces_output/all ../multiple_namespaces/multiple_namespaces_output/all ../local_var_scope/local_var_scope_output/all ../global_var_scope/global_var_scope_output/all ../identifier_linkage/identifier_linkage_output/all ../$ global_variable_sharing$ /$ global_variable_sharing_output/all
+build all: phony ../user_defined_namespaces/user_defined_namespaces_output/all ../multiple_namespaces/multiple_namespaces_output/all ../local_var_scope/local_var_scope_output/all ../global_var_scope/global_var_scope_output/all ../identifier_linkage/identifier_linkage_output/all ../global_variable_sharing/global_variable_sharing_output/all ../static_local_variable/static_local_variable_output/all
 
 # =============================================================================
 
@@ -479,6 +533,13 @@ build all: phony ../user_defined_namespaces/user_defined_namespaces_output/all .
 # Folder: /Users/nauman/Projects/learncpp/ch6/global_var_scope/global_var_scope_output
 
 build ../global_var_scope/global_var_scope_output/all: phony ../global_var_scope/global_var_scope_output/global_var_scope
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/nauman/Projects/learncpp/ch6/global_variable_sharing/global_variable_sharing_output
+
+build ../global_variable_sharing/global_variable_sharing_output/all: phony ../global_variable_sharing/global_variable_sharing_output/global_variable_sharing
 
 # =============================================================================
 
@@ -504,6 +565,13 @@ build ../multiple_namespaces/multiple_namespaces_output/all: phony ../multiple_n
 # =============================================================================
 
 #############################################
+# Folder: /Users/nauman/Projects/learncpp/ch6/static_local_variable/static_local_variable_output
+
+build ../static_local_variable/static_local_variable_output/all: phony ../static_local_variable/static_local_variable_output/static_local_variable
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/nauman/Projects/learncpp/ch6/user_defined_namespaces/user_defined_namespaces_output
 
 build ../user_defined_namespaces/user_defined_namespaces_output/all: phony ../user_defined_namespaces/user_defined_namespaces_output/user_defined_namespaces
@@ -515,14 +583,14 @@ build ../user_defined_namespaces/user_defined_namespaces_output/all: phony ../us
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../global_var_scope/CMakeLists.txt ../global_variable_sharing/CMakeLists.txt ../identifier_linkage/CMakeLists.txt ../local_var_scope/CMakeLists.txt ../multiple_namespaces/CMakeLists.txt ../user_defined_namespaces/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../global_var_scope/CMakeLists.txt ../global_variable_sharing/CMakeLists.txt ../identifier_linkage/CMakeLists.txt ../local_var_scope/CMakeLists.txt ../multiple_namespaces/CMakeLists.txt ../static_local_variable/CMakeLists.txt ../user_defined_namespaces/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../global_var_scope/CMakeLists.txt ../global_variable_sharing/CMakeLists.txt ../identifier_linkage/CMakeLists.txt ../local_var_scope/CMakeLists.txt ../multiple_namespaces/CMakeLists.txt ../user_defined_namespaces/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../global_var_scope/CMakeLists.txt ../global_variable_sharing/CMakeLists.txt ../identifier_linkage/CMakeLists.txt ../local_var_scope/CMakeLists.txt ../multiple_namespaces/CMakeLists.txt ../static_local_variable/CMakeLists.txt ../user_defined_namespaces/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################

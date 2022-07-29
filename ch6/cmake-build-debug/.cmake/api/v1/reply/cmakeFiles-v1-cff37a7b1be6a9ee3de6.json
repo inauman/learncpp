@@ -163,6 +163,9 @@
 		},
 		{
 			"path" : "global_variable_sharing/CMakeLists.txt"
+		},
+		{
+			"path" : "static_local_variable/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
