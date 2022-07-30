@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : "2"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nauman/Projects/learncpp/ch7/cmake-build-debug"
+			"value" : "/Users/nauman/Projects/learncpp/ch7/control_flow_if/control_flow_if_output"
 		},
 		{
 			"name" : "ch7_IS_TOP_LEVEL",
@@ -1099,7 +1099,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
 			"name" : "ch7_SOURCE_DIR",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nauman/Projects/learncpp/ch7"
+			"value" : "/Users/nauman/Projects/learncpp/ch7/control_flow_if"
 		}
 	],
 	"kind" : "cache",
